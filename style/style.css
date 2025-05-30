@@ -31,3 +31,15 @@ Header{
     font-style: italic;
     font-size: 32px;
 }
+
+.container{
+    margin: 10vh;
+    width: 100vh;
+    background-color: aqua;
+}
+
+.imagem{
+    margin: 10vh;
+    width: 35vh;
+    border-radius: 4vh;
+}
