@@ -1,124 +1,265 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@media (min-width: 3040px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
 
-body{
-    /* background-color: #5d1958; */
-    background-image: url(images/I\ love\ you\ My\ Wise\ Girl.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: top;
+    body {
+        background-image: url(images/I\ love\ you\ My\ Wise\ Girl.png);
+        background-size: contain;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: top;
+        width: max-content;
+        height: min-content;
 
-    background-color: #5d1958;
-    
-}
+        background-color: #5d1958;
 
-/*HEADER & FOOTER*/
-.header-end{
-    margin: 1vh;
-    
-    font-size: 24px;
-    font-weight: bold;
-}
+    }
 
-header{
-    background-color: #44113c;  
-    color: white;
-    width: 100%;
-    height: 20vh;
-    
+    /*HEADER & FOOTER*/
+    header {
+        background-color: #44113c;
+        color: white;
+        width: 100%;
+        height: 10vh;
+        align-items: center;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
 
-    
-    align-items: center;
+        justify-content: space-between;
 
-    display: flex;
+    }
 
-}
+    .header-element-size {
+        width: 50vh;
+    }
 
-.logo-centro{
-    height: auto;
-    margin: 1vh;
-    padding: 10px;
-    aspect-ratio: 1/1;
-    align-items: center;
+    .screen-title {
+        margin: 1vh;
+        display: flex;
+        font-style: italic;
+        font-size: 32px;
+    }
 
-    object-position: center;
+    .logo-centro {
+        height: auto;
+        width: 5%;
+        margin: 1vh;
 
-    border-radius: 50%;
+        aspect-ratio: 1/1;
+        align-items: center;
+        object-position: center;
+        border-radius: 50%;
 
-}
-
-.screen-title{
-    margin: 1vh;
-    /* margin-right: auto; */
-    display: flex;
-    font-style: italic;
-    font-size: 32px;
-}
-
-footer{
-    background-color: #44113c;  
-    color: white;
-
-    padding: 2vh; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    }
 
 
-/*PRIMEIRO span*/
-.container-span{
-    margin: 10vh;
-    width: 100vh;
-    height: auto;
+    .counter {
+        margin: 1vh;
+        border-radius: 2vh;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    footer {
+        background-color: #44113c;
+        color: white;
+
+        padding: 2vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
 
-    
-    display: flex;
-    background-color: #44113ce6;  /*Retirar depois*/
-}
-
+    /*PRIMEIRO span*/
+    .container-span {
+        margin: 10vh;
+        width: 100vh;
+        height: auto;
 
 
 
+        display: flex;
+        background-color: #44113ce6;
+        /*Retirar depois*/
+    }
 /*TEXTO PRIMEIRO span*/
-.container-text h4{
-    margin: 0;
-    padding: 0;
-    font-size: 24px;
+    .container-text h4 {
+        margin: 0;
+        padding: 0;
+        font-size: 24px;
+    }
+
+    .container-text {
+        margin: 5vh;
+        width: 50vh;
+        text-align: justify;
+        color: white;
+    }
+
+
+
+    /*IMAGEM PRIMEIRO span*/
+
+    .imagem {
+        /* margin: 5vh; */
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        margin-left: 5vh;
+        width: 50vhvh;
+        aspect-ratio: 3/4;
+        object-fit: contain;
+
+        border-radius: 4vh;
+    }
+
+
+
+    main {
+        display: flex;
+        /* grid-template-columns: 1fr 1fr; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        flex-direction: column;
+    }
+
+    main .right {
+        display: flex;
+        flex-direction: row;
+
+
+        justify-content: end;
+        align-items: end;
+
+    }
 }
-.container-text{
-    margin: 5vh;
-    width: 50vh;
-    text-align: justify;
-    color: white;
-}
 
 
 
-/*IMAGEM PRIMEIRO span*/
+@media (max-width: 1440px) {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'EB Garamond';
+    }
 
-.imagem{
-    /* margin: 5vh; */
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-    margin-left: 5vh;
-    width: 50vhvh;
-    aspect-ratio: 3/4;
-    object-fit: contain;
-    
-    border-radius: 4vh;
-}
+    body {
+        background-image: url(images/I\ love\ you\ My\ Wise\ Girl.png);
+        background-size: contain;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: top;
+        width: 100%;
+        background-color: #44113c;
+    }
+
+    header {
+        background-color: #44113c;
+        color: white;
+        width: 100%;
+        height: 10vh;
+        align-items: center;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+
+    .container-header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
 
 
+    .screen-title {
+        margin: 1vh;
+        display: flex;
+        font-style: italic;
+        font-size: 72px;
+    }
 
-main{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-    flex-direction: ;
+    .logo {
+        height: auto;
+        width: 5vh;
+        margin: 1vh;
+        aspect-ratio: 1/1;
+        align-items: center;
+        border-radius: 50%;
+    }
+
+    .counter {
+        margin: 1vh;
+        font-size: 48px;
+        font-weight: bold;
+        border-radius: 2vh;
+        background-color: #5d1958;
+        color: white;
+        justify-content: center;
+        margin: auto;
+        width: 20vh;
+        padding: 5vh;
+        margin-top: 5vh;
+
+    }
+
+    footer {
+        background-color: #44113c;
+        color: white;
+        font-size: 64px;
+        padding: 2vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-span {
+        margin: -2.5%;
+        width: 70%;
+        height: auto;
+        background-color: #77006f;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        justify-content: center;
+        margin-top: 10vh;
+        border-radius: 3vh;
+
+    }
+
+    .container-text h4 {
+        margin-bottom: 2vh;
+        padding: 0;
+        font-size: 56px;
+    }
+
+    .container-text {
+        width: 60%;
+        margin-bottom: 2.5vh;
+        text-align: justify;
+        color: white;
+        font-size: 48px;
+    }
+
+    .imagem {
+        margin: 2.5vh;
+        height: 30vh;
+        aspect-ratio: 3/4;
+        object-fit: contain;
+
+        border-radius: 4vh;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    hr{
+        margin-top: 10vh;
+        border: dashed 0.5vh #77006f;
+    }
 }
