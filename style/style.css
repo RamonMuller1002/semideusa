@@ -24,6 +24,7 @@
         display: flex;
         flex-wrap: nowrap;
         flex-direction: row;
+        justify-content: space-between;
     }
 
     .container-header {
@@ -48,6 +49,14 @@
         aspect-ratio: 1/1;
         align-items: center;
         border-radius: 50%;
+    }
+    .align-right{
+        margin: 1vh;
+        padding-right: 2vh;
+        display: flex;
+        font-size: 3vh;
+        text-align: right;
+        
     }
 
     .counter {
@@ -207,7 +216,7 @@
         margin: 1vh;
         display: flex;
         font-style: italic;
-        font-size: 6vh;
+        font-size: 4vh;
     }
 
     .logo {
@@ -218,6 +227,15 @@
         align-items: center;
         border-radius: 50%;
     }
+
+    .align-right{
+        margin: 1vh;
+        padding-right: 2vh;
+        display: flex;
+        font-size: 2vh;
+        text-align: right;
+    }
+
 
     .counter {
         margin: 1vh;
