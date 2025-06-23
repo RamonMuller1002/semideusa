@@ -217,8 +217,9 @@
         display: flex;
         font-style: italic;
         font-size: 4vh;
-    }
-
+    } 
+ 
+/*Autorizando git*/
     .logo {
         height: auto;
         width: 10vh;
