@@ -53,7 +53,7 @@
 
 @media (orientation: portrait) {
 
-    #root {
+    header {
         background-color: #44113c;
         color: white;
         width: 100%;
@@ -62,6 +62,7 @@
         display: flex;
         flex-wrap: nowrap;
         flex-direction: row;
+        justify-content: space-between;
 
     }
 
@@ -87,10 +88,10 @@
         border-radius: 50%;
     }
 
-    .align-right {
+    h2.greek {
         padding-right: 2vh;
         display: flex;
-        font-size: 2vh;
+        font-size: 4vh;
         text-align: right;
     }
 

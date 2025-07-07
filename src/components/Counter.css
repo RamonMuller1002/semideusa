@@ -1,16 +1,36 @@
-.counter {
-    place-self: center;
-    text-align: center;
-    font-size: 3vh;
-    font-weight: bold;
-    border-radius: 2vh;
-    background-color: #a10096;
-    color: white;
-    justify-content: center;
+@media (orientation: landscape) {
 
-    width: fit-content;
+    .counter {
+        place-self: center;
+        text-align: center;
+        font-size: 3vh;
+        font-weight: bold;
+        border-radius: 2vh;
+        background-color: #a10096;
+        color: white;
+        justify-content: center;
 
-    padding: 5vh;
-    margin: 5vh;
+        width: fit-content;
 
+        padding: 5vh;
+        margin: 5vh;
+
+    }
+}
+
+@media (orientation: portrait) {
+    .counter {
+        place-self: center;
+        text-align: center;
+        font-size: 2.5vh;
+        font-weight: bold;
+        border-radius: 2vh;
+        background-color: #a10096;
+        color: white;
+        justify-content: center;
+        width: 60%;
+        padding: 5vh;
+        margin: 5vh;
+
+    }
 }
