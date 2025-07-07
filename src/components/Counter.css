@@ -1,0 +1,16 @@
+.counter {
+    place-self: center;
+    text-align: center;
+    font-size: 3vh;
+    font-weight: bold;
+    border-radius: 2vh;
+    background-color: #a10096;
+    color: white;
+    justify-content: center;
+
+    width: fit-content;
+
+    padding: 5vh;
+    margin: 5vh;
+
+}

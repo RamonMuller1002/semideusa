@@ -1,0 +1,97 @@
+@media (orientation: landscape) {
+
+    header{
+        background-color: #44113c;
+        color: white;
+        width: 100%;
+        height: 13vh;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-between;
+
+        align-items: center;
+        place-items: center;
+
+    }
+
+    .container-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .screen-title {
+        display: flex;
+        font-style: italic;
+        font-size: 4vh;
+        place-items: center;
+    }
+
+    .logo {
+        height: auto;
+        width: 10vh;
+
+        margin: 2vh;
+        aspect-ratio: 1/1;
+        align-items: center;
+        border-radius: 50%;
+    }
+
+    h2.greek {
+        margin-right: 2vh;
+        display: flex;
+        font-size: 4vh;
+        text-align: right;
+        place-items: center;
+        align-items: center;
+
+    }
+
+}
+
+
+@media (orientation: portrait) {
+
+    #root {
+        background-color: #44113c;
+        color: white;
+        width: 100%;
+        height: 13vh;
+        align-items: center;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+
+    }
+
+    .container-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .screen-title {
+        margin: 1vh;
+        display: flex;
+        font-style: italic;
+        font-size: 4vh;
+    }
+
+    .logo {
+        height: auto;
+        width: 7vh;
+        margin: 1vh;
+        aspect-ratio: 1/1;
+        align-items: center;
+        border-radius: 50%;
+    }
+
+    .align-right {
+        padding-right: 2vh;
+        display: flex;
+        font-size: 2vh;
+        text-align: right;
+    }
+
+}
