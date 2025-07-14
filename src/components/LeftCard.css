@@ -1,24 +1,30 @@
 @media (orientation: landscape) {
-    span{
+    span {
         margin-bottom: 2.5vh;
     }
 
-    .right {
+    .left {
         width: fit-content;
         max-width: 50%;
         min-width: 30%;
-        align-self: flex-end;
+
+        align-self: flex-start;
+        margin-right: auto;
+
+        height: auto;
         background-color: #77006f;
         display: flex;
+        flex-direction: row-reverse;
         align-items: center;
-
-        justify-self: flex-end;
+        justify-content: end;
         margin-top: 10vh;
-        border-radius: 3vh 0vh 0vh 3vh;
+        border-radius: 0 3vh 3vh 0vh;
+
     }
 
-    .right h4 {
-        text-align: left;
+    .left h4 {
+        text-align: right;
+
     }
 
     .container-text h4 {

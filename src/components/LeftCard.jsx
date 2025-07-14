@@ -1,10 +1,9 @@
-import './RightCard.css'
+import './LeftCard.css'
 import './CardCenter.css'
 
-function RightCard({title, text, image}) {
-
+function LeftCard({title, text, image}){
     return (
-        <span className="container-span right">
+        <span className="container-span left">
             <img className="imagem" src={image} alt="Foto mal carregada"/>
             <div className="container-text">
                 <h4>{title}</h4>
@@ -14,4 +13,4 @@ function RightCard({title, text, image}) {
     )
 }
 
-export default RightCard
+export default LeftCard
