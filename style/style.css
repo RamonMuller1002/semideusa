@@ -157,7 +157,7 @@
         margin: 2vh;
     }
 
-    .imagem {
+    .imagem-main {
         margin: 2.5vh;
         height: 30vh;
         aspect-ratio: 3/4;
@@ -174,6 +174,54 @@
     hr {
         margin-top: 10vh;
         border: dashed 0.5vh white;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    
+    section h1{
+        align-self: start;
+        align-items: start;
+        text-align: left;
+        font-size: 7vh;
+        color: white;
+        background-color: #77006f;
+        padding: 2vw;
+        margin: 2vh;
+        border-radius: 3vh;
+        font-style: italic;
+
+    }
+    
+    .spotify-list{
+        background-color: #77006f;
+        padding: 5vw;
+        border-radius: 3vh;
+        margin: 2vh;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 80%;
+    }
+    
+    .musica {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 2vh;
+        color: white;
+        font-weight: bold;
+    }
+    .musica img {
+        width: 10vh;
+        height: 10vh;
+        margin-right: 2vh;
     }
 }
 
