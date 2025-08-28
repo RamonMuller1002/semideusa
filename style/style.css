@@ -219,6 +219,11 @@
 
         cursor: pointer;
     }
+
+    .musica:hover {
+        background-color: #a10096;
+    }
+
     .musica img {
         width: 10vh;
         height: 10vh;
@@ -231,6 +236,69 @@
         flex-direction: row-reverse;
         align-items: center;
         justify-content: end;
+    }
+
+    /* Estilos do modal (adicione ao final do seu CSS) */
+    .popup-overlay {
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.6);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+
+        padding: 16px;
+    }
+
+    .popup-modal {
+        object-fit: contain;
+        margin: 2.5vh;
+        height: 40vh;
+        aspect-ratio: 3/4;
+        padding: 10vh 10vh 10vh 10vh;
+
+        border-radius: 4vh;
+        background: #ffffff;
+        color: #111;
+        box-shadow: 0 10px 40px rgba(0,0,0,0.35);
+        position: relative;
+    }
+
+    .popup-close {
+        position: absolute;
+        top: 8px;
+        right: 10px;
+        border: 0;
+        background: transparent;
+        font-size: 28px;
+        line-height: 1;
+        cursor: pointer;
+        color: #333;
+    }
+
+    .popup-title {
+        margin-top: -5vh;
+        font-size: 20px;
+    }
+
+    .popup-content p {
+        margin: 0 0 12px;
+    }
+
+    .popup-image {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 12px;
+    }
+
+    .popup-link {
+        display: inline-block;
+        margin-top: 8px;
+        color: #001773;
+        text-decoration: underline;
+        font-weight: 600;
     }
 
 }

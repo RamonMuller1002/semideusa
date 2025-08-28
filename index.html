@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="website icon" type="png" href="style/images/icon.png">
     <title>Para minha "wise girl"</title>
+    <script src="script/script.js"></script>
 </head>
 
 <header>
@@ -106,7 +107,12 @@
     <section class="max-width">
         <h1>Nossas musicas</h1>
         <div class="spotify-list center">
-            <div class="musica" id="segredo-cliche" onclick="">
+            <div class="musica" id="segredo-cliche" onclick="mySpan({
+    titulo: 'Segredo Clichê',
+    texto: 'Letra que nos iteressa',
+    imagem: 'style/images/main/paparazzi.png',
+    link: 'https://exemplo.com/musica'
+  })">
                 <img src="style/images/musics-imgs/segredo-cliche.png" title="Capa do álbum de Segredo Clichê" alt="Capa do álbum Segredo Clichê">
                 <h4 class="nome-musica">Segredo Clichê</h4>
                 <h4 class="autor">GIANA</h4>
@@ -135,7 +141,7 @@
     </section>
 
     <footer><h6>Feito com muito amor e carinho pelo seu Príncipe</h6></footer>
-    <script src="counter.js"></script>
+    <script src="script/counter.js"></script>
 </body>
 
 </html>
