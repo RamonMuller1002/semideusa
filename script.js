@@ -1,5 +1,5 @@
 // Data alvo: 13 de abril de 2025 (formato: ano, mês (0-11), dia)
-const targetDate = new Date(2025, 3, 14); // mês 3 = abril
+const targetDate = new Date(2025, 3, 13, 14); // mês 3 = abril
 function updateCounter() {
     const hora = Date.now();
     const now = new Date();
